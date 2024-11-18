@@ -75,7 +75,7 @@ const Nav = () => {
                         <ul className="flex flex-col items-center text-gray-700 font-medium py-4">
                             <li className="py-2 border-b w-full text-center">
                                 <a
-                                    href="#home"
+                                    href="#Home"
                                     className="block w-full hover:text-red-600 transition"
                                     onClick={() => setIsOpen(false)}
                                 >
@@ -84,7 +84,7 @@ const Nav = () => {
                             </li>
                             <li className="py-2 border-b w-full text-center">
                                 <a
-                                    href="#services"
+                                    href="#Services"
                                     className="block w-full hover:text-red-600 transition"
                                     onClick={() => setIsOpen(false)}
                                 >
@@ -93,22 +93,14 @@ const Nav = () => {
                             </li>
                             <li className="py-2 border-b w-full text-center">
                                 <a
-                                    href="#about"
+                                    href="#About"
                                     className="block w-full hover:text-red-600 transition"
                                     onClick={() => setIsOpen(false)}
                                 >
                                     About Us
                                 </a>
                             </li>
-                            <li className="py-2 w-full text-center">
-                                <a
-                                    href="#contact"
-                                    className="block w-full hover:text-red-600 transition"
-                                    onClick={() => setIsOpen(false)}
-                                >
-                                    Contact
-                                </a>
-                            </li>
+
                         </ul>
                     </div>
                 )}

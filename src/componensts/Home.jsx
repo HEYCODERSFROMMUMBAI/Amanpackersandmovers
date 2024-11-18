@@ -190,7 +190,7 @@ const Home = () => {
                     href="https://wa.me/919930655571"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="fixed bottom-5 right-16 bg-green-500 text-white rounded-full p-4 shadow-lg hover:bg-green-600 transition"
+                    className="fixed bottom-5 right-16 bg-green-500 text-white rounded-full p-4 shadow-lg hover:bg-green-600 transition z-50"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -205,7 +205,7 @@ const Home = () => {
                 {/* Call Icon */}
                 <a
                     href="tel:+919930655571"
-                    className="fixed bottom-5 right-5 bg-blue-500 text-white rounded-full p-4 shadow-lg hover:bg-blue-600 transition"
+                    className="fixed bottom-5 right-5 bg-blue-500 text-white rounded-full p-4 shadow-lg hover:bg-blue-600 transition z-50"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
