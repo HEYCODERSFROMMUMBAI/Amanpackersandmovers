@@ -64,26 +64,26 @@
 // export default About;
 
 import React from 'react';
-import Img1 from '../assets/img1.jpg';
+import Rimg1 from '../assets/rimg1.jpg';
 import Img2 from '../assets/img2.jpg';
-import Img3 from '../assets/img3.jpg';
+import Rimg2 from '../assets/rimg2.jpg';
 import Img4 from '../assets/img4.jpg';
 import Img5 from '../assets/img5.jpg';
 import Img6 from '../assets/img6.jpg';
 import Img7 from '../assets/img7.jpg';
-import Img8 from '../assets/img8.jpg';
+import Rimg3 from '../assets/rimg3.jpg';
 import Img9 from '../assets/img9.jpg';
 
 const About = () => {
     const teamImages = [
-        Img1,
+        Rimg1,
         Img2,
-        Img3,
+        Rimg2,
         Img4,
         Img5,
         Img6,
         Img7,
-        Img8,
+        Rimg3,
         Img9,
     ];
 

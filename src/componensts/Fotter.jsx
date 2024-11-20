@@ -6,7 +6,7 @@ const Fotter = () => {
     return (
         <footer className="bg-zinc-200 text-black py-8 shadow-md" id='Contact'>
             <div className="container mx-auto px-6">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
                     {/* Logo and Company Info */}
                     <div className="text-center md:text-left">
                         <img
